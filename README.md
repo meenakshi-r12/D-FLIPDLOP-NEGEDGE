@@ -49,3 +49,5 @@ Next state of D flip-flop is always equal to data input, D for every positive tr
 ![exp83](https://github.com/user-attachments/assets/71fddc51-8349-4213-a014-ca51f6445662)
 
 **RESULTS**
+
+To implement D flipflop using verilog and validating their functionality using their functional tables.
