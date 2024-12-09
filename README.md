@@ -32,10 +32,26 @@ Next state of D flip-flop is always equal to data input, D for every positive tr
 
 **PROGRAM**
 
+module exp8(D,Clock,reset,Q);
 
-![exp81](https://github.com/user-attachments/assets/2348cc7c-e3e9-4e6c-9cba-46b3881bc40b)
+input D,Clock,reset;
+
+output reg q;
+
+always@(negedge Clock)
+
+if(!reset)
+
+Q<=0;
+
+else
+
+Q<=D;
+
+endmodule
 
 /* Program for flipflops and verify its truth table in quartus using Verilog programming. 
+
 **Developed by:Meenakshi.R RegisterNumber:24003710**
 */
 
